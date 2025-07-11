@@ -45,7 +45,7 @@ h1 {
 
 .navbar a:hover {
   background-color: #0D00FF;
-  color: #F5F5F5;
+  color: #aca8ff;
 }
 
 .hero {
@@ -106,12 +106,20 @@ footer {
     width: 100%;
     background-color: #F5F5F5;
     color: #0D00FF;
-    border-color: #0D00FF;
+    border: #0D00FF solid 2px;
     border-radius: 12px;
     padding: 10px 0;
     position: absolute;
     top: 50px;
     left: 0;
+  }
+
+  .navbar a {
+    color: #0D00FF;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 8px;
   }
 
   #menu-toggle:checked + .burger-menu + .navbar {
